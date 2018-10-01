@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Amazon Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.284">
+  <properties />
+  
+  
+            <testcase name="groupSetup" time="4.284" classname="tests.amazonTest.firstTest" />
+      
+</testsuite>

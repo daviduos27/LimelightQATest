@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Limelight Test]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <groups>
+    <run>
+      <exclude name="depricated"/>
+    </run>
+  </groups>
+  <test name="Amazon Test">
+    <packages>
+      <package name="tests.amazonTest.*"/>
+    </packages>
+    <classes>
+      <class name="tests.amazonTest.firstTest"/>
+    </classes>
+  </test> <!-- Amazon Test -->
+</suite> <!-- Failed suite [Limelight Test] -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Limelight Test" verbose="10" thread-count="1"
+	parallel="tests">
+	
+	<groups>
+		<run>
+			<exclude name="depricated" />
+		</run>
+	</groups>
+	
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Amazon Test"
+		preserve-order="true">
+		
+		<parameter name="sInputSearch" value="ipad air 2 case"/>
+ 
+	    <parameter name="sOption" value="Plastic"/>
+	    
+	    <parameter name="sLowPrice" value="20"/>
+	    
+	    <parameter name="sHighPrice" value="100"/>
+ 
+		<packages>
+			<package
+				name="tests.amazonTest.*" />
+		</packages>
+	</test>
+	
+</suite>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28245" started-at="2018-10-01T05:18:29Z" finished-at="2018-10-01T05:18:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28245" started-at="2018-10-01T05:18:29Z" finished-at="2018-10-01T05:18:57Z">
+      <class name="test.AmazonTest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:test.AmazonTest@6d4b1c02]" name="setupClass" is-config="true" duration-ms="3890" started-at="2018-10-01T00:18:29Z" finished-at="2018-10-01T00:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:test.AmazonTest@6d4b1c02]" name="setupTest" is-config="true" duration-ms="5535" started-at="2018-10-01T00:18:32Z" finished-at="2018-10-01T00:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="groupSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.AmazonTest@6d4b1c02]" name="groupSetup" duration-ms="17719" started-at="2018-10-01T00:18:38Z" description="Test Description" finished-at="2018-10-01T00:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ipad air 2 case]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Plastic]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupSetup -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.AmazonTest@6d4b1c02]" name="tearDownTest" is-config="true" duration-ms="0" started-at="2018-10-01T00:18:56Z" finished-at="2018-10-01T00:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.AmazonTest@6d4b1c02]" name="tearDownClass" is-config="true" duration-ms="1095" started-at="2018-10-01T00:18:56Z" finished-at="2018-10-01T00:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.AmazonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
