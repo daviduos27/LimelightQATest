@@ -48,6 +48,7 @@ public class AmazonTest {
 		searchResultsPage.sortByOption(sOption);
 		searchResultsPage.sortByPrice(sLowPrice, sHighPrice);
 		searchItemList = searchResultsPage.getListOfResults();
+		//This assert its going to fail because there is a item with price 19.99 in the results from amazon
 		//Assert.assertEquals(true, RangeOfPrices.verify(searchItemList, Integer.parseInt(sLowPrice), Integer.parseInt(sHighPrice)));
 		SortResultsList.byPrice(searchItemList, true);
 		SortResultsList.byRating(searchItemList, true);
